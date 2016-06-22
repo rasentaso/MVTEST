@@ -26,7 +26,7 @@
     var _Scene_Base_prototype_update = Scene_Base.prototype.update;
     Scene_Base.prototype.update = function() {
         _Scene_Base_prototype_update.call(this);  
-        var test = document.getElementById("test").value;
+        var test = document.getElementById("test").nodeValue;
         console.log(test);
     };
 })();
